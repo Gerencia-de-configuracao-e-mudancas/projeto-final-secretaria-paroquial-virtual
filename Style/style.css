@@ -8,9 +8,13 @@ h1, h2, h3, h4, p, a, li, ul, figcaption {
     font-family: "Inter", sans-serif;
 }
 
-.TrueBody
+h3
 {
     font-size: 25px;
+}
+
+.TrueBody
+{
     text-align: center;
 }
 
@@ -20,10 +24,31 @@ h1, h2, h3, h4, p, a, li, ul, figcaption {
     margin-right: 5%;
     max-height: 800px;
     text-align: center;
+    margin-bottom: 30px;
+}
+
+.TextInsideOfFolha
+{
+    margin: 8px;
+}
+
+.FolhaBlock
+{
+    margin-left: 10px;
+    max-width:  400px;
+    min-width: 400px;
+    text-align: left;
+    display: inline-block;
+    font-size: 20px;
+    line-height: 10px;
+    border-style: solid;
+    border-color: black;
+    background-color:  rgb(215, 212, 171);
 }
 
 .BookBlock
 {
+    margin-top: 10px;
     margin-left: 10px;
     max-width:  250px;
     min-height: 450px;
