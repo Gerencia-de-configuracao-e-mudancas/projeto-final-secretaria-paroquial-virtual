@@ -1,50 +1,266 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Livro 1 - Detalhes do Casamento</title>
-    <link rel="stylesheet" href="/Styles/submatrimonio.css">
+    <title>Secretaria Paroquial - P.N.S.C.</title>
+    <link rel="icon" type="image/png" href="/images/LOGOdaPAROQUIA-PNG.png">
+    <link rel="stylesheet" href="/modeloStyles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>Detalhes do Casamento</h1>
-        <a href="index.html" class="botao">Voltar</a>
+    <div class="container-pagina-completo-grid">
+        <div class="logo-paroquia-cabecalho">
+            <a class="computer-logo" href="index.html"><img src="/images/LOGOdaPAROQUIA-PNG.png"></a>
+            <a class="computer-logo" href="index.html"><p>PARÓQUIA <br>NOSSA SENHORA <br>DA CONCEIÇÃO</p></a>
+        </div>
+        <header class="cabecalho-flex">
+            <ul class="item-nav-cabecalho">
+                <ul class="item-nav-cabecalho">
+                    <li><a class="logo-cabecalho" href="index.html"><img src="logos-fotos/LOGOdaPAROQUIA-PNG.png"></a></li>
+                    <li><p>PARÓQUIA <br>NOSSA SENHORA <br>DA CONCEIÇÃO</p></li>
+                <li class="item"><a href="index.html">Início</a></li>
+                <li class="item">
+                    <ul>
+                        <li id="item-menu"><a href="sobre.html">Sobre</a></li>
+                    </ul>
+                </li>
+                <li class="item">
+                    <ul>
+                        <li id="item-menu"><a href="capelas.html">Capelas</a></li>
+                    </ul>
+                </li>
+                <li class="item">
+                    <ul>
+                        <li id="item-menu"><a href="pastoral.html">Pastoral</a></li>
+                    </ul>
+                </li>
+                <li class="item">
+                    <ul>
+                        <li id="item-menu"><a href="galeria-fotos.html">Galeria</a></li>
+                    </ul>
+                </li>
+                <li class="item"><a href="documentos.html">Documentos</a></li>
+            </ul>
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()">
+                    <img class="icon" src="logos-fotos/menu_white_36dp.svg" alt="">
+                </button>
+            </div>
+        </ul>
     </header>
+            <div class="mobile-menu">
+                <ul>
+                    <li class="nav-item"><a href="index.html" class="nav-link">Início</a></li>
+                    <li class="nav-item"><a href="sobre.html" class="nav-link">Sobre</a></li>
+                    <li class="nav-item"><a href="galeria.html" class="nav-link">Galeria</a></li>
+                    <li class="nav-item"><a href="capelas.html" class="nav-link">Capelas</a></li>
+                    <li class="nav-item"><a href="pastoral.html" class="nav-link">Pastoral</a></li>
+                    <li class="nav-item"><a href="documentos.html" class="nav-link">Documentos</a></li>
+                </ul>
+            </div>
+        <div style="text-align: center; margin: 40px 0;">
+                <img src="/images/livromatrimonio.avif" alt="Livro do Casamento" style="width: 100px; height: auto; margin-bottom: 15px;">
+                <div style="font-size: 27px; font-weight: 700; color: #0039A1;">
+                    LIVRO DO MATRIMONIO 1
+                </div>
+        </div>
+        <section id="detalhes-casamento">
+            <div class="registro">
+                <p><strong>João Silva Moreira<br>Maria Souza Alencar</strong></p>
+                <div class="detalhes">
+                    <section id="info-noivos">
+                        <h2>Informações sobre os noivos</h2>
+                        <div class="conjuges">
+                            <p><strong>CÔNJUGE 1:</strong> João Silva Moreira</p>
+                            <p><strong>CÔNJUGE 2:</strong> Maria Souza Alencar</p>
+                        </div>
+                    </section>
+                    <p><strong>Data e local de nascimento:</strong> 01/01/1990, São Paulo | 02/02/1992, Rio de Janeiro</p>
+                    <p><strong>Nacionalidade:</strong> Brasileira</p>
+                    <p><strong>Profissão:</strong> Engenheiro e Professora</p>
+                    <p><strong>Filiação:</strong> João Filho e Ana Silva / Carlos Souza e Fernanda Souza</p>
+                    <p><strong>Estado civil anterior:</strong> Solteiros</p>
 
-    <main>
-        <section>
-            <h2>Informações sobre os noivos</h2>
-            <p><strong>Nome do cônjuge 1:</strong> João Silva</p>
-            <p><strong>Nome do cônjuge 2:</strong> Maria Souza</p>
-            <p><strong>Data e local de nascimento:</strong> 01/01/1990, São Paulo</p>
-            <p><strong>Nacionalidade:</strong> Brasileira</p>
-            <p><strong>Profissão:</strong> Engenheiro e Professora</p>
-            <p><strong>Filiação:</strong> João Filho e Ana Silva / Carlos Souza e Fernanda Souza</p>
-            <p><strong>Estado civil anterior:</strong> Solteiros</p>
+                    <h2>Informações sobre o casamento</h2>
+                    <p><strong>Data e hora:</strong> 10/10/2025, 16:00</p>
+                    <p><strong>Local:</strong> Igreja Nossa Senhora, Rua das Flores, 123, São Paulo</p>
+                    <p><strong>Regime de bens:</strong> Comunhão parcial</p>
+                    <p><strong>Tipo de cerimônia:</strong> Religiosa</p>
+                    <p><strong>Certidão/registro:</strong> 001/2025</p>
+                    <p><strong>Testemunhas:</strong> Ana Martins, Carlos Pereira</p>
+                    <p><strong>Assinaturas:</strong> João Silva, Maria Souza, Ana Martins, Carlos Pereira</p>
+                    <p><strong>Oficial/celebrante:</strong> Padre José da Silva</p>
+
+                    <h2>Informações adicionais</h2>
+                    <p><strong>Anotações legais:</strong> Nenhuma</p>
+                    <p><strong>Número do processo de habilitação:</strong> 12345/2025</p>
+                </div>
+            </div>
+        </section>
+        <section id="detalhes-casamento">
+            <div class="registro">
+                <p><strong>Lucas Fernandes Costa<br>Mariana Ribeiro Alves</strong></p>
+                <div class="detalhes">
+                    <section id="info-noivos">
+                        <h2>Informações sobre os noivos</h2>
+                        <div class="conjuges">
+                            <p><strong>CÔNJUGE 1:</strong> Lucas Fernandes Costa</p>
+                            <p><strong>CÔNJUGE 2:</strong> Mariana Ribeiro Alves</p>
+                        </div>
+                    </section>
+                    <p><strong>Data e local de nascimento:</strong> 15/03/1988, Belo Horizonte | 22/07/1990, Porto Alegre</p>
+                    <p><strong>Nacionalidade:</strong> Brasileira</p>
+                    <p><strong>Profissão:</strong> Médico e Designer Gráfico</p>
+                    <p><strong>Filiação:</strong> Roberto Costa e Helena Fernandes / Ricardo Alves e Silvia Ribeiro</p>
+                    <p><strong>Estado civil anterior:</strong> Solteiros</p>
+
+                    <h2>Informações sobre o casamento</h2>
+                    <p><strong>Data e hora:</strong> 20/12/2025, 18:00</p>
+                    <p><strong>Local:</strong> Capela São Pedro, Rua das Acácias, 321, Porto Alegre</p>
+                    <p><strong>Regime de bens:</strong> Separação total</p>
+                    <p><strong>Tipo de cerimônia:</strong> Civil e Religiosa</p>
+                    <p><strong>Certidão/registro:</strong> 002/2025</p>
+                    <p><strong>Testemunhas:</strong> Fernanda Lima, Rafael Souza</p>
+                    <p><strong>Assinaturas:</strong> Lucas Costa, Mariana Alves, Fernanda Lima, Rafael Souza</p>
+                    <p><strong>Oficial/celebrante:</strong> Juiz de Paz Carlos Menezes</p>
+
+                    <h2>Informações adicionais</h2>
+                    <p><strong>Anotações legais:</strong> Casamento com pacto antenupcial</p>
+                    <p><strong>Número do processo de habilitação:</strong> 67890/2025</p>
+                </div>
+            </div>
+        </section>
+        <div style="text-align: center; margin: 18px 0; font-size: 28px; font-weight: 700; color: #0039A1;">
+            FOLHA 2
+        </div>
+
+        <section id="detalhes-casamento">
+            <div class="registro">
+                <p><strong>Fernando Lima Costa<br>Ana Paula Ribeiro</strong></p>
+                <div class="detalhes">
+                    <section id="info-noivos-3">
+                        <h2>Informações sobre os noivos</h2>
+                        <div class="conjuges">
+                            <p><strong>CÔNJUGE 1:</strong> Fernando Lima Costa</p>
+                            <p><strong>CÔNJUGE 2:</strong> Ana Paula Ribeiro</p>
+                        </div>
+                    </section>
+                    <p><strong>Data e local de nascimento:</strong> 20/06/1985, Recife | 18/09/1987, Fortaleza</p>
+                    <p><strong>Nacionalidade:</strong> Brasileira</p>
+                    <p><strong>Profissão:</strong> Advogado e Designer</p>
+                    <p><strong>Filiação:</strong> José Costa e Maria Lima / Carlos Ribeiro e Fernanda Silva</p>
+                    <p><strong>Estado civil anterior:</strong> Solteiros</p>
+
+                    <h2>Informações sobre o casamento</h2>
+                    <p><strong>Data e hora:</strong> 22/08/2025, 15:00</p>
+                    <p><strong>Local:</strong> Igreja do Carmo, Rua das Flores, 789, Recife</p>
+                    <p><strong>Regime de bens:</strong> Comunhão parcial</p>
+                    <p><strong>Tipo de cerimônia:</strong> Religiosa</p>
+                    <p><strong>Certidão/registro:</strong> 003/2025</p>
+                    <p><strong>Testemunhas:</strong> Marcos Lima, Juliana Souza</p>
+                    <p><strong>Assinaturas:</strong> Fernando Costa, Ana Ribeiro, Marcos Lima, Juliana Souza</p>
+                    <p><strong>Oficial/celebrante:</strong> Padre João Batista</p>
+
+                    <h2>Informações adicionais</h2>
+                    <p><strong>Anotações legais:</strong> Nenhuma</p>
+                    <p><strong>Número do processo de habilitação:</strong> 11223/2025</p>
+                </div>
+            </div>
         </section>
 
-        <section>
-            <h2>Informações sobre o casamento</h2>
-            <p><strong>Data e hora:</strong> 10/10/2025, 16:00</p>
-            <p><strong>Local:</strong> Igreja Nossa Senhora, Rua das Flores, 123, São Paulo</p>
-            <p><strong>Regime de bens:</strong> Comunhão parcial</p>
-            <p><strong>Tipo de cerimônia:</strong> Religiosa</p>
-            <p><strong>Número da certidão ou registro:</strong> 001/2025</p>
-            <p><strong>Testemunhas:</strong> Ana Martins, Carlos Pereira</p>
-            <p><strong>Assinaturas:</strong> João Silva, Maria Souza, Ana Martins, Carlos Pereira</p>
-            <p><strong>Oficial/celebrante:</strong> Padre José da Silva</p>
+        <section id="detalhes-casamento">
+            <div class="registro">
+                <p><strong>Rafael Mendes Alves<br>Camila Ferreira Santos</strong></p>
+                <div class="detalhes">
+                    <section id="info-noivos-4">
+                        <h2>Informações sobre os noivos</h2>
+                        <div class="conjuges">
+                            <p><strong>CÔNJUGE 1:</strong> Rafael Mendes Alves</p>
+                            <p><strong>CÔNJUGE 2:</strong> Camila Ferreira Santos</p>
+                        </div>
+                    </section>
+                    <p><strong>Data e local de nascimento:</strong> 11/11/1986, Salvador | 23/07/1989, Vitória</p>
+                    <p><strong>Nacionalidade:</strong> Brasileira</p>
+                    <p><strong>Profissão:</strong> Engenheiro e Professora</p>
+                    <p><strong>Filiação:</strong> Paulo Alves e Teresa Mendes / Jorge Santos e Helena Ferreira</p>
+                    <p><strong>Estado civil anterior:</strong> Solteiros</p>
+
+                    <h2>Informações sobre o casamento</h2>
+                    <p><strong>Data e hora:</strong> 05/11/2025, 16:30</p>
+                    <p><strong>Local:</strong> Igreja Nossa Senhora da Assunção, Rua Central, 321, Salvador</p>
+                    <p><strong>Regime de bens:</strong> Separação total</p>
+                    <p><strong>Tipo de cerimônia:</strong> Civil</p>
+                    <p><strong>Certidão/registro:</strong> 004/2025</p>
+                    <p><strong>Testemunhas:</strong> Lucas Santos, Patrícia Lima</p>
+                    <p><strong>Assinaturas:</strong> Rafael Alves, Camila Santos, Lucas Santos, Patrícia Lima</p>
+                    <p><strong>Oficial/celebrante:</strong> Juiz de Paz Roberto Carvalho</p>
+
+                    <h2>Informações adicionais</h2>
+                    <p><strong>Anotações legais:</strong> Casamento com pacto antenupcial</p>
+                    <p><strong>Número do processo de habilitação:</strong> 33445/2025</p>
+                </div>
+            </div>
         </section>
 
-        <section>
-            <h2>Informações adicionais</h2>
-            <p><strong>Anotações legais:</strong> Nenhuma</p>
-            <p><strong>Número do processo de habilitação:</strong> 12345/2025</p>
-        </section>
-    </main>
 
-    <footer>
-        <p>© 2025 Secretaria Paroquial</p>
-    </footer>
+
+
+        <footer class="rodape-flex-pc">
+            <nav class="item-nav-rodape-pc">
+                <img src="/images/LOGOdaPAROQUIA-PNG.png">
+                <ul class="rodape-pc">
+                    <li class="item-rodape-pc">REDES</li>
+                    <li><a href="https://www.youtube.com/@pnsdaconceicao-cachoeirado1567">Youtube</a></li>
+                    <li><a href="https://www.facebook.com/profile.php?id=100015713432601&locale=pt_BR">Facebook</a></li>
+                    <li><a href="https://www.instagram.com/pnsconceicaoci/">Instagram</a></li>
+                </ul>
+                <ul class="rodape-pc">
+                    <li class="item-rodape-pc">CONTATO</li>
+                    <li><a href="mailto:pnsccachoeiradosindios@gmail.com?subject=D%C3%9AVIDA&body=Ol%C3%A1!%20Poderia%20me%20ajudar%3F">E-mail</a></li>
+                    <li><a href="https://www.google.com/maps/place/Par%C3%B3quia+Nossa+Senhora+da+Concei%C3%A7%C3%A3o/@-6.9264666,-38.6737129,87m/data=!3m1!1e3!4m6!3m5!1s0x7a3f5482cc4b001:0xb636013c11563ab!8m2!3d-6.9265678!4d-38.6734772!16s%2Fg%2F11gdqj2qql!5m1!1e4?entry=ttu&g_ep=EgoyMDI1MDIxNy4wIKXMDSoASAFQAw%3D%3D">Endereço</a></li>
+                    <li><a href="https://wa.me/5583998639287">WhatsApp</a></li>
+                </ul>
+                <img src="/images/LOGOdaPASCOM-PNG.png">
+            </nav>
+        </footer>
+        <footer class="rodape-flex">
+            <nav class="item-nav-rodape">
+                <ul class="rodape-celular">
+                    <li><img src="/images/LOGOdaPAROQUIA-PNG.png"></li>
+                    <li><img src="/images/LOGOdaPASCOM-PNG.png"></li>
+                </ul>
+                <ul class="rodape-celular">
+                    <li>
+                        <ul>
+                            <li class="item-rodape">REDES</li>
+                            <li><a href="https://www.youtube.com/@pnsdaconceicao-cachoeirado1567">Youtube</a></li>
+                            <li><a href="https://www.facebook.com/profile.php?id=100015713432601&locale=pt_BR">Facebook</a></li>
+                            <li><a href="https://www.instagram.com/pnsconceicaoci/">Instagram</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul>
+                            <li class="item-rodape">CONTATO</li>
+                            <li><a href="mailto:pnsccachoeiradosindios@gmail.com?subject=D%C3%9AVIDA&body=Ol%C3%A1!%20Poderia%20me%20ajudar%3F">E-mail</a></li>
+                            <li><a href="https://www.google.com/maps/place/Par%C3%B3quia+Nossa+Senhora+da+Concei%C3%A7%C3%A3o/@-6.9264666,-38.6737129,87m/data=!3m1!1e3!4m6!3m5!1s0x7a3f5482cc4b001:0xb636013c11563ab!8m2!3d-6.9265678!4d-38.6734772!16s%2Fg%2F11gdqj2qql!5m1!1e4?entry=ttu&g_ep=EgoyMDI1MDIxNy4wIKXMDSoASAFQAw%3D%3D">Endereço</a></li>
+                            <li><a href="https://wa.me/5583998639287">WhatsApp</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </footer>
+    </div>
+    <script>
+        const registros = document.querySelectorAll('.registro > p');
+        registros.forEach(nome => {
+            nome.addEventListener('click', () => {
+                const detalhes = nome.nextElementSibling;
+                detalhes.style.display = detalhes.style.display === 'block' ? 'none' : 'block';
+            });
+        });
+    </script>
 </body>
 </html>
