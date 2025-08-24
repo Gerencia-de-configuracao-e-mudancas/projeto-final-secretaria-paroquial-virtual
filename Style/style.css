@@ -282,7 +282,35 @@ h3
     text-decoration: underline;
 }
 
+#registro-fiel {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 25px auto;
+    max-width: 750px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
 
+/* Título do fiel */
+#registro-fiel h2 {
+    text-align: center;
+    color: #0039A1;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+#registro-fiel p {
+    margin: 8px 0;
+    font-size: 20px;
+    color: #333;
+    line-height: 1.6;
+}
+
+#registro-fiel strong {
+    color: #0039A1;
+    font-size: 21px;
+}
 
 .item-nav-rodape-pc ul {
     display: grid;
