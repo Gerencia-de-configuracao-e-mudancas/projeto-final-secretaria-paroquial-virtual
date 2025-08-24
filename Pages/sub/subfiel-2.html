@@ -61,7 +61,6 @@
                     <li class="nav-item"><a href="documentos.html" class="nav-link">Documentos</a></li>
                 </ul>
             </div>
-        </div>
         <section id="registro-fiel">
             <h2>Informações do Fiel</h2>
             <p><strong>Nome:</strong> Mariana Lopes Ferreira</p>
@@ -121,14 +120,5 @@
             </nav>
         </footer>
     </div>
-    <script>
-        const registros = document.querySelectorAll('.registro > p');
-        registros.forEach(nome => {
-            nome.addEventListener('click', () => {
-                const detalhes = nome.nextElementSibling;
-                detalhes.style.display = detalhes.style.display === 'block' ? 'none' : 'block';
-            });
-        });
-    </script>
 </body>
 </html>
