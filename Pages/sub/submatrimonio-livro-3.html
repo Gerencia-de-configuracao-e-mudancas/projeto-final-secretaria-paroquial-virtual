@@ -29,7 +29,9 @@
             <li class="item"><a href="documentos.html">Documentos</a></li>
         </ul>
     </header>
-
+    <div style="text-align: center; margin: 20px 0;">
+        <input type="text" id="searchInput" placeholder="Buscar por nome..." style="padding: 8px 12px; font-size: 16px; width: 300px;">
+    </div>
     <div style="text-align: center; margin: 40px 0;">
         <img src="/images/livromatrimonio.avif" alt="Livro do Casamento" style="width: 100px; height: auto; margin-bottom: 15px;">
         <div style="font-size: 27px; font-weight: 700; color: #0039A1;">
@@ -194,15 +196,29 @@
     </footer>
 
 </div>
-
-<script>
-    const registros = document.querySelectorAll('.registro > p');
-    registros.forEach(nome => {
-        nome.addEventListener('click', () => {
-            const detalhes = nome.nextElementSibling;
-            detalhes.style.display = detalhes.style.display === 'block' ? 'none' : 'block';
+    <script>
+        const secoes = document.querySelectorAll('#detalhes-casamento');
+        secoes.forEach(secao => {
+            const registro = secao.querySelector('.registro');
+            const nomeP = registro.querySelector('p strong');
+            nomeP.addEventListener('click', () => {
+                const detalhes = registro.querySelector('.detalhes');
+                detalhes.style.display = detalhes.style.display === 'block' ? 'none' : 'block';
+            });
         });
-    });
-</script>
+        document.getElementById('searchInput').addEventListener('keyup', function() {
+            const filter = this.value.toLowerCase();
+
+            secoes.forEach(secao => {
+                const nomes = secao.querySelector('.registro p strong').innerText.toLowerCase();
+                if (nomes.includes(filter) || filter === "") {
+                    secao.style.display = 'block';
+                } else {
+                    secao.style.display = 'none';
+                }
+            });
+        });
+    </script>
+
 </body>
 </html>
