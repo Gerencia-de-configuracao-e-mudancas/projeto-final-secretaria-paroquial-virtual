@@ -1,1 +1,28 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/lXGP65Sr)
+# Secretaria da Paróquia Nossa Senhora da Conceição - Site Institucional
+
+## 📌 Objetivo do Repositório
+
+Este repositório visa criar um site para a Secretaria da Paróquia Nossa Senhora da Conceição, utilizando HTML, CSS e JavaScript. O projeto serve como material didático, com base no site de referência: [https://pnsconceicao.github.io/matriz/](https://pnsconceicao.github.io/matriz/).
+
+## 🛠️ Construído com
+
+- **Editor de Código:** [Visual Studio Code](https://code.visualstudio.com/)
+- **Linguagens:** HTML, CSS, JavaScript
+- **Frameworks e Bibliotecas:** Nenhum (projeto desenvolvido do zero)
+
+## 👥 Contribuidores
+
+- João Victor Ramalho
+- Petrônio Segundo
+- João Batista
+- José Wendell
+
+## ⚙️ Tecnologias Utilizadas
+
+- **HTML:** Estruturação semântica do conteúdo
+- **CSS:** Estilização e layout responsivo
+- **JavaScript:** Interatividade e algumas funcionalidades dinâmicas
+
+## 🔗 Links e Informações Úteis
+
+- **Site de Referência:** [https://pnsconceicao.github.io/matriz/](https://pnsconceicao.github.io/matriz/)
