@@ -631,11 +631,10 @@ h3
     flex-direction: row;
 }
 
-/* Para o subbatismo-livro01 */
-/* .fiel li {
-    font-size: 20px;    
+.fiel li {
+    font-size: 25px;    
     list-style: none;
-} */
+}
 
 .fiel {
     display: flex;
